@@ -11,6 +11,15 @@ return {
       },
     },
 
+    T = {
+      name = "Test",
+      c = { "<cmd>TestFile<cr>", "Run test current file" },
+      n = { "<cmd>TestNearest<cr>", "Run test nearest to the cursor" },
+      s = { "<cmd>TestNearest<cr>", "Run all test file" },
+      l = { "<cmd>TestLast<cr>", "Run last test file" },
+      v = { "<cmd>TestVisit<cr>", "Go to last test file" },
+    },
+
     ["]"] = {
       f = "Next function start",
       x = "Next class start",

@@ -5,4 +5,7 @@ return {
     branch = "v2",
     require("hop").setup { keys = "etovxqpdygfblzhckisuran" },
   },
+  {
+    "vim-test/vim-test",
+  },
 }
