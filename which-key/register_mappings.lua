@@ -32,6 +32,16 @@ return {
       F = "Previous function end",
       X = "Previous class end",
     },
+
+    D = {
+      name = "Diffview",
+      o = { "<cmd>DiffviewOpen<cr>", "Open Diffview" },
+      c = { "<cmd>DiffviewClose<cr>", "Close Diffview" },
+      h = { "<cmd>DiffviewFileHistory<cr>", "Open file history" },
+      f = { "<cmd>DiffviewFocusFiles<cr>" },
+      t = { "<cmd>DiffviewToggleFiles<cr>" },
+      l = { "<cmd>DiffviewLog<cr>" },
+    },
   },
   i = {
     ["<c-d>"] = {
