@@ -11,4 +11,8 @@ return {
   {
     "tpope/vim-rails",
   },
+  {
+    "f-person/git-blame.nvim",
+    config = function() require "plugins.git-blame.config" end,
+  },
 }
