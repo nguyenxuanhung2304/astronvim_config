@@ -3,7 +3,7 @@ return {
   {
     "phaazon/hop.nvim",
     branch = "v2",
-    require("hop").setup { keys = "etovxqpdygfblzhckisuran" },
+    config = function() require("hop").setup { keys = "etovxqpdygfblzhckisuran" } end,
   },
   {
     "vim-test/vim-test",
